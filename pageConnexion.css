@@ -1,0 +1,67 @@
+html,body{
+    height: 100%;
+    background: linear-gradient(-25deg,#8600b3 50%,#cc33ff 50%);
+    font-family: "Roboto",sans-serif;
+}
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: white;
+}
+
+form{
+    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.login-form{
+    width: 380px;
+    height: 450px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+
+input[type="email"],input[type="password"]{
+
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+input[type="email"] :focus,
+input[type="password"] :focus{
+    outline: none;
+    border: none;
+    background: white;
+    margin: 0;
+}
+
+label{
+    color: #000;
+}
+.card-title{
+    font-weight: 50;
+    padding-top: 20px ;
+    color: #000;
+    cursor: pointer;
+    user-select: none;
+}
+.btn{
+    background: linear-gradient(-25deg,#8600b3 50%,#cc33ff 50%);
+    font-size: 14px;
+    transform: translateY(10px);
+    border-radius: 10px;
+    width: 345px;
+   
+}
+
+.signup{
+    text-align: center;
+    padding-top: 25px;
+    color: #000;
+}
+
